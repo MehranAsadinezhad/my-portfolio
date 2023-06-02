@@ -1,0 +1,17 @@
+$primary: #4f4f4f;
+$secondary: #9228c7;
+$third:rgb(117, 0, 234);
+$white:white;
+$info:#ece8e5; 
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import './components/mixins';  
+@import './components/underline';     
+@import './components/button'; 
+
+@import './body'; 
+@import './navbar';
+@import './intro';
+@import './services'; 
+@import './projects';  
+@import './resume';     

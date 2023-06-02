@@ -1,0 +1,41 @@
+.box-rotate {
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+
+    &:hover {
+        @include boxrotate;
+    }
+
+}
+
+.box-rotate:hover a {
+    color: white;
+}
+
+.box-rotate:hover i {
+    color: white;
+}
+
+.navbar__left-theme{
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+
+    &:hover {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+    }
+}
+
+.navbar__left-theme i:hover{
+    color: $secondary;
+}
+

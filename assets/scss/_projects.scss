@@ -1,0 +1,26 @@
+.projects{
+    margin-left: 90px;
+}
+
+.arrow{
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.arrow:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width:991.2px) {
+    .projects {
+        margin-left: 0px;
+    }
+}

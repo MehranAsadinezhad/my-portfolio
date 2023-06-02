@@ -1,0 +1,37 @@
+.description{
+    margin-left: 90px;
+}
+
+.box{
+    background-color: $info;
+}
+
+.person{
+   position: absolute;
+   top: 150px;
+}
+
+.table{
+   position: absolute;
+   top: 179px;
+}
+
+.screen{
+    position: absolute;
+}
+
+.description-profile{
+    position: relative;
+    bottom:350px ;
+}
+
+.person-md{
+    height: 600px;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width:991.2px) {
+    .description {
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <title>Mehran | Front-end web developer</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/logo.jpg">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+  <!-- loader -->
+  <div class="loader">
+    <div class="banter-loader">
+      <div class="banter-loader__box"></div>
+      <div class="banter-loader__box"></div>
+      <div class="banter-loader__box"></div>
+      <div class="banter-loader__box"></div>
+      <div class="banter-loader__box"></div>
+      <div class="banter-loader__box"></div>
+      <div class="banter-loader__box"></div>
+      <div class="banter-loader__box"></div>
+      <div class="banter-loader__box"></div>
+    </div>
+  </div>
+
+  <!-- progress -->
+  <div class="progresss bg-white">
+    <div class="progresss-bar line"></div>
+  </div>
+
+  <!-- offcanvas -->
+  <div id="offcanvas" class="d-flex flex-column p-4" data-bs-scroll="false">
+    <div class="offcanvas-header d-flex align-items-center justify-content-between">
+      <a href="#"><img src="assets/images/logom.png" class="offcanvas-header__logo img-fluid" width="100"></img></a>
+      <button class="btn btn-close offcanvas-header__btn fs-4"></button>
+    </div>
+    <div class="offcanvas-content my-5 d-flex flex-column align-items-start">
+      <div class="resume box-rotate my-3">
+        <a href=""><i class="bi bi-person-lines-fill fs-5"></i></a>
+        <a href="#resume" class="fs-5 ms-3">Resume</a>
+      </div>
+      <div class="works box-rotate my-3">
+        <a href=""><i class="bi bi-file-earmark-fill fs-5"></i></a>
+        <a href="#works" class="fs-5 ms-3">Projects</a>
+      </div>
+      <div class="services box-rotate my-3">
+        <a href=""><i class="bi bi-diagram-2-fill fs-5"></i></a>
+        <a href="#services" class="fs-5 ms-3">Services</a>
+      </div>
+      <div class="navbar__left-gmail box-rotate my-3">
+        <a href=""><i class="bi bi-envelope-fill fs-5 me-lg-2"></i></a>
+        <a href="mailto:mehranasadition@gmail.com" class="fs-5 ms-3">Email</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- mainSection -->
+  <section class="container bg-white p-4 my-5 rounded shadow" id="main-section">
+    <!-- scroll-icon -->
+    <a href="#" class="scroll-icon fs-5"><i class="bi bi-chevron-double-up text-white"></i></a>
+
+    <!-- nav -->
+    <nav class="navbar d-flex align-items-center justify-content-between flex-row-reverse">
+      <div class="navbar__right d-flex align-items-center flex-row-reverse">
+        <a href="#" class="icon-menu box-rotate fs-1 d-lg-none"><i class="bi bi-list"></i></a>
+        <div class="resume fs-5 d-lg-flex box-rotate flex-row-reverse d-none">
+          <a href="#resume">Resume</a>
+          <a href=""><i class="bi bi-person-lines-fill me-lg-2"></i></a>
+        </div>
+        <div class="works fs-5 d-lg-flex me-lg-4 box-rotate flex-row-reverse d-none">
+          <a href="#works">Projects</a>
+          <a href=""><i class="bi bi-file-earmark-fill me-lg-2"></i></a>
+        </div>
+        <div class="services fs-5 d-lg-flex box-rotate flex-row-reverse me-lg-4 d-none">
+          <a href="#services">Services</a>
+          <a href=""><i class="bi bi-diagram-2-fill me-lg-2"></i></a>
+        </div>
+      </div>
+      <div class="navbar__left-logo d-flex align-items-center">
+        <a href="#"><img src="assets/images/logom.png" alt="" width="100" class="img-fluid"></a>
+        <div class="navbar__left-gmail box-rotate ms-lg-5 d-lg-flex align-items-center flex-row-reverse d-none"><a
+            href="mailto:mehranasadition@gmail.com" class="fw-semibold">mehranasadition@gmail.com</a>
+          <span><i class="bi bi-envelope-fill fs-5 me-lg-2"></i></span>
+        </div>
+      </div>
+      </div>
+    </nav>
+
+    <!-- intro -->
+    <section class="intro my-5" id="intro">
+      <div class="row align-items-center">
+        <div class="col-lg-1 d-lg-flex d-none flex-column align-items-center social-media">
+          <a href="" class="fs-4"><i class="bi-linkedin"></i></a>
+          <a href="https://www.instagram.com/mehraaavn" target="_blank" class="fs-4 my-3"><i
+              class="bi-instagram"></i></a>
+          <a href="" class="fs-4"><i class="bi-telegram"></i></a>
+        </div>
+        <div class="col-lg-6 intro-context">
+          <h1 class="fw-bold text-center text-lg-start">
+            Hi, I'm Mehran Asadinezhad</h1>
+          <h4 class="my-3 text-center text-lg-start">I'm a
+            front-end web developer and digital painter from Iran with
+            high level experience in
+            developing websites and designing.</h4>
+          <div class="text-center text-lg-start">
+            <a href="mailto:mehranasadition@gmail.com" class="btn btn-rounded-primary my-3 fs-5">Contact Me <span><i
+                  class="bi bi-chat-left-dots-fill text-white mx-2"></i></span></a>
+          </div>
+        </div>
+        <div class="col-lg-5 intro-profile">
+          <img src="assets/images/mehran().png" alt="" class="img-fluid me" title="Mehran Asadinezhad">
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section class="description my-5" id="services">
+      <h1 class="fw-bold title-section">What I Can Do</h1>
+      <p class="my-2 fs-4 title-section__info">Service Offers</p>
+      <div class="underline"></div>
+      <div class="row me-lg-2 box rounded my-5 p-4 align-items-center d-flex">
+        <div class="col-lg-6 col-12">
+          <div class="description-context text-center mt-3">
+            <div class="d-flex align-items-center justify-content-center">
+              <span><i class="bi bi-lightning-fill me-3 fs-5 text-secondary"></i></span>
+              <h3 class="description-context__title fw-bold">Front-end Developing</h3>
+            </div>
+            <p class="description-context__text mt-3 fs-4">I have high level experience in web designing and development
+              knowledge such as React, JavaScript, Jquery, Sass, Ajax, Bootstrap, Css and Html.</p>
+          </div>
+          <div class="description-context text-center my-5">
+            <div class="d-flex align-items-center justify-content-center">
+              <span><i class="bi bi-lightning-fill me-3 fs-5 text-secondary"></i></span>
+              <h3 class="description-context__title fw-bold">Designing</h3>
+            </div>
+            <p class="description-context__text mt-3 fs-4">I'm an experienced graphic designer specialized in designing
+              print materials such as Company Profiles, Magazines, and Brochures. I have a strong background in
+              presentation design, including the content structure and design. In order to design, I use Adobe photoshop
+              and corelDraw.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 position-relative description-profile d-lg-block d-none">
+          <img src="assets/images/table.png" alt="" class="img-fluid table" data-aos="fade-down" data-aos-delay="1000"
+            data-duration="500">
+          <img src="assets/images/screen.png" alt="" class="img-fluid screen" data-aos="fade-down" data-aos-delay="2000"
+            data-duration="500">
+          <img src="assets/images/illustration-01.003c594.png" alt="" class="img-fluid person" data-aos="zoom-in-down"
+            data-aos-delay="300" data-duration="500">
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section class="projects my-5" id="works">
+      <h1 class="fw-bold title-section">My Projects</h1>
+      <div class="underline"></div>
+      <div class="me-lg-2 box rounded my-5 p-4 align-items-center d-flex flex-column justify-content-center">
+        <div id="carouselExample" class="carousel slide w-100 shadow-lg rounded-2">
+          <div class="carousel-inner">
+            <div class="carousel-item active p-2">
+              <video class="w-100 rounded-2" controls autoplay muted>
+                <source src="assets/videos/Rec 0007.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="carousel-item p-2">
+              <video class="w-100" controls autoplay muted>
+                <source src="assets/videos/Rec 0010.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+          <div class="d-flex align-items-center justify-content-center mb-3">
+            <button class="btn btn-dark arrow" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"><i
+                class="bi bi-arrow-left text-light fs-6"></i>
+            </button>
+            <button class="btn btn-dark arrow ms-3" type="button" data-bs-target="#carouselExample"
+              data-bs-slide="next"><i class="bi bi-arrow-right text-light fs-6"></i>
+            </button>
+          </div>
+        </div>
+        <div class="languages mt-4">
+          <i class="fs-3 mx-1 languages-icon bi bi-filetype-html text-danger bg-light rounded p-1"></i>
+          <i class="fs-3 mx-1 languages-icon bi bi-filetype-css bg-light rounded p-1"></i>
+          <i class="fs-3 mx-1 languages-icon bi bi-bootstrap text-secondary bg-light rounded p-1"></i>
+          <i class="fs-3 mx-1 languages-icon bi bi-filetype-sass bg-light text-success rounded p-1"></i>
+          <i class="fs-3 mx-1 languages-icon bi bi-filetype-js text-warning bg-light rounded p-1"></i>
+          <i class="fs-3 mx-1 languages-icon bi bi-filetype-jsx text-primar1 bg-light rounded p-1"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- resumes -->
+    <section id="resume" class="my-5">
+      <h1 class="fw-bold title-section">Experience</h1>
+      <div class="underline"></div>
+      <div class="me-lg-2 box rounded my-5 p-4 align-items-center">
+        <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
+          <span><i class="bi bi-lightning-fill me-3 fs-5 text-secondary"></i></span>
+          <h3 class="fw-bold">Front-end Developer</h3>
+        </div>
+        <h5>I started to learn front-end web developing in 2022 at Tehran Institute of Technology and I got my
+          degree within 6 months with high-score. Then, I immediately succeeded to be employed at a company as a
+          front-end
+          developer. Moreover, I'm really keen on working remotely, so If you are eager to cooperate with me <span><a
+              href="mailto:mehranasadition@gmail.com" class="footer-contact ms-2">Contact Me</a></span>
+        </h5>
+      </div>
+      <div class="me-lg-2 box rounded my-5 p-4 align-items-center">
+        <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
+          <span><i class="bi bi-database-check me-3 fs-5 text-secondary"></i></span>
+          <h3 class="fw-bold">Tech I Use For Front-end Developing</h3>
+        </div>
+        <div class="tech-profile my-3 text-center">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="mx-4"><img
+              src="assets/images/html.png" alt="" class="img-fluid icon-tech my-3 my-lg-2" width="50" title="html"></a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/css" target="_blank" class="mx-4"><img
+              src="assets/images/css.png" alt="" class="img-fluid icon-tech my-3 my-lg-2" width="50" title="css"></a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/sass" target="_blank" class="mx-4"><img
+              src="assets/images/sass.png" alt="" class="img-fluid icon-tech my-3 my-lg-2" width="50" title="sass"></a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/bootstrap" target="_blank" class="mx-4"><img
+              src="assets/images/boot.png" alt="" class="img-fluid icon-tech my-3 my-lg-2" width="50"
+              title="bootstrap"></a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" class="mx-4"><img
+              src="assets/images/js.png" alt="" class="img-fluid icon-tech my-3 my-lg-2" width="50"
+              title="javascript"></a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/react" target="_blank" class="mx-4"><img
+              src="assets/images/react.png" alt="" class="img-fluid icon-tech my-3 my-lg-2" width="50"
+              title="react"></a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/jquery" target="_blank" class="mx-4"><img
+              src="assets/images/jquery.png" alt="" class="img-fluid icon-tech my-3 my-lg-2" width="50"
+              title="jquery"></a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/ajax" target="_blank" class="mx-4"><img
+              src="assets/images/ajax.png" alt="" class="img-fluid icon-tech my-3 my-lg-2" width="50" title="ajax"></a>
+        </div>
+      </div>
+      <div class="me-lg-2 box rounded my-5 p-4 align-items-center">
+        <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
+          <span><i class="bi bi-lightning-fill me-3 fs-5 text-secondary"></i></span>
+          <h3 class="fw-bold">Desinger</h3>
+        </div>
+        <h5>In 2018, I decided to learn digital painting and designing by watching courses on Youtube and after some
+          months i run up my business on Instagram and share my digital-painting there. after a while, my paintings
+          drummed up and people offered me. Then, a company offered me a job as designer for boxes. I have
+          been working as freelancer to paint digitaly and design websites, cover of books, boxes, brochures and ... .
+        </h5>
+      </div>
+
+      <div class="me-lg-2 box rounded my-5 p-4 align-items-center">
+        <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
+          <span><i class="bi bi-database-check me-3 fs-5 text-secondary"></i></span>
+          <h3 class="fw-bold">Tech I Use For Designing</h3>
+        </div>
+        <div class="tech-profile my-3 text-center">
+          <a href="https://www.adobe.com/products/photoshop.html" target="_blank" class="mx-4"><img
+              src="assets/images/ps.png" title="photoshop" class="img-fluid icon-tech my-2" width="50"></a>
+          <a href="https://www.corel.com" target="_blank" class="mx-5"><img src="assets/images/corel.png" alt=""
+              class="img-fluid icon-tech my-2" width="50" title="corel"></a>
+        </div>
+      </div>
+
+    </section>
+
+  </section>
+
+
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="assets/javascript/javascript.js"></script>
+</body>
+
+</html>
